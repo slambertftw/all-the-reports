@@ -1,3 +1,5 @@
-module.exports = function(width, height) {
-	return width*height;
-}
+'use strict';
+
+var ReporterFile = require("./all-the-reports.js");
+
+module.exports = ReporterFile;
